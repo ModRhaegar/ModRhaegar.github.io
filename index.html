@@ -4,25 +4,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Josh's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lora&family=Oswald:wght@500&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Lora', serif;
       margin: 0;
-      background: #dfe4ea;
-      color: #2f3542;
+      background: url('images/GoT_image04.webp') no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
     }
     header {
-      background: #ced6e0;
-      padding: 2rem;
+      background: url('images/GoT_image01.webp') no-repeat center center;
+      background-size: cover;
+      padding: 3rem;
       text-align: center;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      color: #fff;
+      text-shadow: 1px 1px 5px black;
     }
     header h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 3rem;
       margin: 0;
-      font-size: 2.5rem;
+    }
+    header p {
+      font-family: 'Lora', serif;
+      font-size: 1.2rem;
     }
     .section {
       padding: 2rem 4rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 2rem;
+      border-radius: 10px;
+    }
+    .section h2 {
+      font-family: 'Cinzel', serif;
+      text-align: center;
+      font-size: 2rem;
+      color: #f1f2f6;
     }
     .projects {
       display: grid;
@@ -30,19 +48,26 @@
       gap: 2rem;
     }
     .project {
-      background: #ffffff;
+      background: rgba(255, 255, 255, 0.1);
       border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
       padding: 1.5rem;
+      backdrop-filter: blur(5px);
     }
     .project h3 {
+      font-family: 'Oswald', sans-serif;
       margin-top: 0;
+      color: #ffdd59;
+    }
+    .project p {
+      font-family: 'Lora', serif;
+      color: #dcdde1;
     }
     footer {
       text-align: center;
       padding: 2rem;
-      background: #ced6e0;
-      margin-top: 2rem;
+      background: rgba(0, 0, 0, 0.8);
+      color: #dcdde1;
     }
   </style>
 </head>
@@ -85,37 +110,71 @@
   <section class="section">
     <h2>Other Projects</h2>
     <div class="projects">
-      <div class="project"><h3>Mad Libs Generator</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Python Number Guessing Game</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Countdown Timer</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Password Generator</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Contact Book</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Binary Search Algorithm</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Desktop Notifier App</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Website Blocker</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Web Scraping</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>URL Shortener</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Twitter Bot</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Reddit Bot</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Discord Bot</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Crypto App</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Sorting Method</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Interactive Quiz</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Counter App</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Web Browser</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Notes App</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Typing Tester</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Interactive Map Logic</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Prison Break Game</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Pong Game</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Connect Four</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Tetris Game</h3><p>Description coming soon.</p></div>
-      <div class="project"><h3>Rock Paper Scissors Game</h3><p>Description coming soon.</p></div>
+      <div class="project">
+        <h3>Blade of the Shinobi</h3>
+        <p>My game, Blade of the Shinobi, is about a retired ninja on a quest for vengeance. It blends text-based storytelling with turn-based mechanics.</p>
+      </div>
+      <div class="project">
+        <h3>Sonic Platformer</h3>
+        <p>A Sonic-themed platformer for my son, with multiple playable characters and classic platform mechanics.</p>
+      </div>
+      <div class="project">
+        <h3>Ninja Adventure Game</h3>
+        <p>My first 2D platformer featuring a male and female ninja. Originally a school project turned into a full game.</p>
+      </div>
+      <div class="project">
+        <h3>Budget Program</h3>
+        <p>Description coming soon.</p>
+      </div>
+      <div class="project">
+        <h3>Calendar Program</h3>
+        <p>Description coming soon.</p>
+      </div>
+      <div class="project">
+        <h3>Calculator</h3>
+        <p>Description coming soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Other Projects</h2>
+    <div class="projects">
+      <div class="project"><h3>Mad Libs Generator</h3><p>Mad Libs is a game where one player prompts others for a list of words to substitute for blanks in a story before reading aloud.</p></div>
+      <div class="project"><h3>Number Guessing Game</h3><p>A number guessing game.</p></div>
+      <div class="project"><h3>Countdown Timer</h3><p>A countdown timer.</p></div>
+      <div class="project"><h3>Password Generator</h3><p>A custom password generator.</p></div>
+      <div class="project"><h3>Contact Book</h3><p>An app to keep your Contacts.</p></div>
+      <div class="project"><h3>Binary Search Algorithm</h3><p>Used to find the position of a target element in a sorted array.</p></div>
+      <div class="project"><h3>Desktop Notifier App</h3><p>An app for your desktop to notify you of anything you want to be notified of.</p></div>
+      <div class="project"><h3>Website Blocker</h3><p>Very handy App to block websites. Very handy as a way to Child Proof the Laptop.</p></div>
+      <div class="project"><h3>Web Scraping</h3><p>An app used to automatically extract large amounts of data from websites of your choice.</p></div>
+      <div class="project"><h3>URL Shortener</h3><p>An app that converts long URLS into shorter, more manageable links, making them easier to share and track.</p></div>
+      <div class="project"><h3>Twitter Bot</h3><p>A Twitter bot is a type of software bot that controls a Twitter account via the Twitter API. It can autonomously perform actions such as tweeting, retweeting, liking, following, unfollowing, or direct messaging other accounts.</p></div>
+      <div class="project"><h3>Reddit Bot</h3><p>A Reddit bot is a type of software bot that controls a Reddit account via the Reddit API.</p></div>
+      <div class="project"><h3>Discord Bot</h3><p>A Discord bot is a type of software bot that controls a Discord account via the Discord API.</p></div>
+      <div class="project"><h3>Crypto App</h3><p>Helps facilitate the buying, selling, and management of cryptocurrencies.</p></div>
+      <div class="project"><h3>Sorting Method</h3><p>Helps sort anything you need sorted.</p></div>
+      <div class="project"><h3>Interactive Quiz</h3><p>An interactive Quiz Game!</p></div>
+      <div class="project"><h3>Counter App</h3><p>Helps track the amount of steps you take.</p></div>
+      <div class="project"><h3>Web Browser</h3><p>An app specifically created to help you create your very own Web Browser.</p></div>
+      <div class="project"><h3>Notes App</h3><p>An app to keep Notes in.</p></div>
+      <div class="project"><h3>Typing Tester</h3><p>An app to help you test your typing.</p></div>
+      <div class="project"><h3>Interactive Map Logic</h3><p>The logic for an interactive map!</p></div>
+      <div class="project"><h3>Prison Break Game</h3><p>A prison break game!</p></div>
+      <div class="project"><h3>Pong Game</h3><p>The Pong game!</p></div>
+      <div class="project"><h3>Connect Four</h3><p>Connect Four game!</p></div>
+      <div class="project"><h3>Tetris Game</h3><p>Tetris Game!</p></div>
+      <div class="project"><h3>Rock Paper Scissors Game</h3><p>Rock, Paper, and Scissors Game!</p></div>
     </div>
   </section>
 
   <footer>
     <p>Copyright &copy; 2025 Josh Smith. All rights reserved.</p>
   </footer>
+
+  <div style="text-align:center; margin: 2rem 0;">
+    <img src="images/GoT_image02.webp" alt="Decorative Footer Image" style="max-width:90%; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.7);">
+  </div>
 </body>
 </html>
